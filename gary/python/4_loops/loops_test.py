@@ -6,47 +6,47 @@ from loops import generator, square
 
 class TestGenerator(unittest.TestCase):
 
-    def generator(self, num, expected_outcome):
+    def generator_base_test(self, num, expected_outcome):
         result = list(generator(num))
         self.assertEqual(result, expected_outcome)
 
     def test_negative_num(self):
-        self.generator(-1, [])
+        self.generator_base_test(-1, [])
 
     def test_zero(self):
-        self.generator(0, [])
+        self.generator_base_test(0, [])
 
     def test_one(self):
-        self.generator(1, [0])
+        self.generator_base_test(1, [0])
 
     def test_five(self):
-        self.generator(5, [0, 1, 4, 9, 16])
+        self.generator_base_test(5, [0, 1, 4, 9, 16])
 
     def test_ten(self):
-        self.generator(10,
+        self.generator_base_test(10,
             [0, 1, 4, 9, 16, 25, 36, 49, 64, 81])
 
 
 class TestSquare(unittest.TestCase):
 
-    def square(self, num, expected_outcome):
+    def square_base_test(self, num, expected_outcome):
         result = square(num)
         self.assertEqual(result, expected_outcome)
 
     def test_negative_num(self):
-        self.square(-1, 1)
+        self.square_base_test(-1, 1)
 
     def test_zero(self):
-        self.square(0, 0)
+        self.square_base_test(0, 0)
 
     def test_one(self):
-        self.square(1, 1)
+        self.square_base_test(1, 1)
 
     def test_five(self):
-        self.square(5, 25)
+        self.square_base_test(5, 25)
 
     def test_ten(self):
-        self.square(10, 100)
+        self.square_base_test(10, 100)
 
 
 if __name__ == '__main__':

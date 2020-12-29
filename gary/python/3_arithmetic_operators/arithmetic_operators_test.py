@@ -5,6 +5,7 @@ import unittest
 from arithmetic_operators import add, minus, times
 
 class TestAdd(unittest.TestCase):
+
     def test_add_1(self):
         result = add(5, 3)
         self.assertEqual(result, 8)
@@ -19,6 +20,7 @@ class TestAdd(unittest.TestCase):
 
 
 class TestMinus(unittest.TestCase):
+
     def test_minus_1(self):
         result = minus(5, 3)
         self.assertEqual(result, 2)
