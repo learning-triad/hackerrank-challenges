@@ -6,6 +6,7 @@
 def return_str(str):
     return str
 
+
 if __name__ == '__main__':
     str = return_str("Hello, World!")
     print(str)

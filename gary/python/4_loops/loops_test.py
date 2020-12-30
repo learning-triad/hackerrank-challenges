@@ -4,6 +4,7 @@ import unittest
 
 from loops import generator, square
 
+
 class TestGenerator(unittest.TestCase):
 
     def generator_base_test(self, num, expected_outcome):
@@ -23,8 +24,7 @@ class TestGenerator(unittest.TestCase):
         self.generator_base_test(5, [0, 1, 4, 9, 16])
 
     def test_ten(self):
-        self.generator_base_test(10,
-            [0, 1, 4, 9, 16, 25, 36, 49, 64, 81])
+        self.generator_base_test(10, [0, 1, 4, 9, 16, 25, 36, 49, 64, 81])
 
 
 class TestSquare(unittest.TestCase):
