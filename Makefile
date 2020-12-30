@@ -1,3 +1,3 @@
 PHONY: test
 pytest test:
-	pytest
+	pytest --cov=./
