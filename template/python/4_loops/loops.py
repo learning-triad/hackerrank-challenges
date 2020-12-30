@@ -2,11 +2,17 @@
 #
 # https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
 #
-# Read two integers from STDIN and print three lines where:
+# For all non-negative integers i < n, print i^2.
 #
-# The first line contains the sum of the two numbers.
-# The second line contains the difference of the two numbers (first - second).
-# The third line contains the product of the two numbers.
+# Sample Input:
+# 5
+#
+# Sample Output:
+# 0
+# 1
+# 4
+# 9
+# 16
 
 
 if __name__ == '__main__':
