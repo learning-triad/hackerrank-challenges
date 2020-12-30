@@ -1,7 +1,7 @@
 #!/bin/python3
 #
 # https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
-# 
+#
 # Read two integers from STDIN and print three lines where:
 #
 # The first line contains the sum of the two numbers.
