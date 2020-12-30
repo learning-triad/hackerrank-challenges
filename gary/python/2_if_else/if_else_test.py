@@ -6,6 +6,7 @@ from if_else import check_weirdness
 
 
 class TestCheckWeirdness(unittest.TestCase):
+
     def test_odd_1(self):
         result = check_weirdness(1)
         self.assertEqual(result, "Weird")
