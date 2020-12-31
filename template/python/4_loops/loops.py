@@ -1,6 +1,6 @@
 #!/bin/python3
 #
-# https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
+# https://www.hackerrank.com/challenges/python-loops/problem
 #
 # For all non-negative integers i < n, print i^2.
 #
