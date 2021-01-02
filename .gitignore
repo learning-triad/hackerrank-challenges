@@ -1,2 +1,9 @@
 .pytest_cache/
 *.pyc
+
+venv/
+.coverage
+
+.vscode
+.idea
+.DS_Store
